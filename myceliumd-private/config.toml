@@ -1,0 +1,12 @@
+peers = []
+api_addr = "127.0.0.1:8989"
+metrics_api_address = "127.0.0.1:8990"
+
+tcp_listen_port = 9651
+quic_listen_port = 9651
+tun_name = "utun9"
+
+## Options below only apply when myceliumd-private is used
+network_name = "mam"
+network_key_file = "./k.bin"
+

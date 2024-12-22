@@ -1,0 +1,9 @@
+peers = [
+  "tls://192.168.0.112:9651",
+]
+
+disable_peer_discovery = true
+
+## Options below only apply when myceliumd-private is used
+network_name = "mam"
+network_key_file = "./k.bin"
